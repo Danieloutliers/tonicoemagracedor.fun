@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <title>Perca de peso</title>
 <head>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="shortcut icon" href="favicon.jpg">
@@ -14,7 +12,7 @@
     }
     @font-face {
       font-family: Gotham Rounded;
-      src: url("font.otf") format("opentype");
+      src: url("./quiz/font.otf") format("opentype");
     }
     *, *::before, *::after {
       box-sizing: border-box;
@@ -29,7 +27,7 @@
       align-items: center;
       width: 100vw;
       height: 100vh;
-      background: url("fundo.png");
+      background: url("./quiz/fundo.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -76,15 +74,20 @@
       display: none;
     }
   </style>
+
+
+
+
+
+
 </head>
 <body>
-
 <div class="container">
 <div class="black">
 <div id="primeira">
 <div class="question">
-<h1>Pergunta 1</h1>
-<p>Você realmente quer descobrir esse segredo?</p>
+<h1>Parabéns por chegar ate aqui!</h1>
+<p>Você esta prestes a descobrir um segredo que pode mudar sua vida, deseja continuar?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="segunda()">SIM</button>
@@ -124,7 +127,7 @@
       document.getElementById("terceira").classList.remove("hide")
     }
     function redirect() {
-      location.href = "https://feitopravoce.net.br/zerobarriga/"
+      location.href = "https://barriga-protocolo.online/"
     }
   </script>
 </body>
